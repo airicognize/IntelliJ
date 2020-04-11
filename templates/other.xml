@@ -1,0 +1,14 @@
+<templateSet group="other">
+  <template name="elif" value="else if ($VALUE$) {&#10;&#10;}" description="Inserts Else if" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($VALUE$) {&#10;&#10;}" description="If statement" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
